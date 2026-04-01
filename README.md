@@ -31,20 +31,28 @@ This project leverages a powerful set of tools and technologies:
 ## 📁 Project Structure
 
 ```
-src/
-│── assets/        # Images, fonts, icons
-│── components/    # Reusable UI components
-│── features/      # Redux slices and logic
-│── hooks/         # Custom React hooks
-│── layouts/       # Page layouts
-│── pages/         # Route-based pages
-│── services/      # API calls / external services
-│── store/         # Redux store setup
-│── styles/        # Global styles
-│── utils/         # Helper functions
-│── App.tsx
-│── main.tsx
-```
+.
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images, icons, fonts
+│   ├── components/      # Reusable UI components
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions / helpers
+│   ├── pages/           # Application pages
+│   ├── App.tsx          # Root component
+│   ├── main.tsx         # Entry point
+│   ├── App.css          # Global styles
+│   ├── index.css        # Tailwind styles
+│   └── vite-env.d.ts    # Vite type definitions
+│
+├── index.html           # HTML template
+├── package.json         # Dependencies & scripts
+├── tsconfig.json        # TypeScript config
+├── vite.config.ts       # Vite configuration
+├── tailwind.config.ts   # Tailwind configuration
+├── postcss.config.js    # PostCSS configuration
+├── eslint.config.js     # ESLint configuration
+└── README.md            # Project documentation
 
 ---
 
@@ -53,8 +61,8 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/clothing-brand-portfolio.git
-   cd clothing-brand-portfolio
+   git clone https://github.com/AdityaSarse/Noire.git
+   cd Noire
    ```
 
 2. Install dependencies:
@@ -68,13 +76,6 @@ src/
    ```bash
    npm run dev
    ```
-
-4. Build for production:
-
-   ```bash
-   npm run build
-   ```
-
 ---
 
 ## 🎯 Design Approach
@@ -86,6 +87,7 @@ src/
   * Brand storytelling
 * Translated into code using reusable components and Tailwind utilities
 * Emphasis on consistency, spacing, and accessibility
+* FigmA LINK :[https://www.figma.com/design/nrhdFFXt8ivLtMVAB7MXaB/Noire?node-id=0-1&t=yXykIwxd1QVq1A2X-1]
 
 ---
 
@@ -116,12 +118,6 @@ Feel free to fork this repo and submit a pull request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 💡 Inspiration
 
 Built to reflect modern fashion aesthetics with a focus on simplicity, elegance, and usability.
@@ -132,8 +128,7 @@ Built to reflect modern fashion aesthetics with a focus on simplicity, elegance,
 
 For collaborations or inquiries:
 
-* Email: [your-email@example.com](mailto:your-email@example.com)
-* Portfolio: your-portfolio-link
+* Email: [adityasare361@gmail.com]
 
 ---
 
