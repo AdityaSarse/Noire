@@ -52,7 +52,25 @@ This project leverages a powerful set of tools and technologies:
 ├── tailwind.config.ts   # Tailwind configuration
 ├── postcss.config.js    # PostCSS configuration
 ├── eslint.config.js     # ESLint configuration
-└── README.md            # Project documentation
+├── client/                
+│
+├── server/                 # Backend
+│   ├── src/
+│   │   ├── controllers/    # Request handlers
+│   │   ├── routes/         # API routes
+│   │   ├── models/         # DB schemas (Mongo/Prisma/etc.)
+│   │   ├── services/       # Business logic
+│   │   ├── middleware/     # Auth, error handling
+│   │   ├── utils/          # Helper functions
+│   │   ├── config/         # DB & env config
+│   │   └── server.ts       # Entry point
+│   │
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── .env
+│
+├── package.json       
+└── README.md
 
 ---
 
