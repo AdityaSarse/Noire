@@ -1,153 +1,272 @@
-# Noire Portfolio Website
+<p align="center">
+  <img src="./public/p1.png" alt="Noire Banner" width="100%">
+</p>
 
-A modern, responsive portfolio website for showcasing a clothing brand’s identity, collections, and creative vision. Built with a clean UI, smooth interactions, and scalable architecture using modern frontend tools.
+<h1 align="center">🛍️ Noire</h1>
 
----
+<p align="center">
+  A Premium Fashion E-Commerce Experience designed in Figma and built with React, TypeScript, Tailwind CSS, and Redux Toolkit.
+</p>
 
-## 🚀 Tech Stack
+<p align="center">
+  Modern UI • Responsive Design • Smooth Interactions • Brand Storytelling
+</p>
 
-This project leverages a powerful set of tools and technologies:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/Redux-Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white">
+  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge">
+</p>
 
-* **React (with TypeScript)** – Component-based architecture with strong type safety
-* **Tailwind CSS** – Utility-first styling for rapid UI development
-* **shadcn/ui** – Accessible and customizable UI components
-* **Redux Toolkit** – State management for scalable and predictable data flow
-* **Figma** – UI/UX design and prototyping
-* **Vite / Webpack** *(depending on your setup)* – Fast development and optimized builds
-
----
-
-## 🎨 Features
-
-* ✨ Modern and minimal design for brand storytelling
-* 📱 Fully responsive across mobile, tablet, and desktop
-* 🧥 Product/collection showcase pages
-* 🎞️ Smooth animations and transitions
-* 🔍 Organized component architecture for maintainability
-* ⚡ Fast performance and optimized assets
-
----
-
-## 📁 Project Structure
-
-```
-.
-├── public/              # Static assets
-├── src/
-│   ├── assets/          # Images, icons, fonts
-│   ├── components/      # Reusable UI components
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions / helpers
-│   ├── pages/           # Application pages
-│   ├── App.tsx          # Root component
-│   ├── main.tsx         # Entry point
-│   ├── App.css          # Global styles
-│   ├── index.css        # Tailwind styles
-│   └── vite-env.d.ts    # Vite type definitions
-│
-├── index.html           # HTML template
-├── package.json         # Dependencies & scripts
-├── tsconfig.json        # TypeScript config
-├── vite.config.ts       # Vite configuration
-├── tailwind.config.ts   # Tailwind configuration
-├── postcss.config.js    # PostCSS configuration
-├── eslint.config.js     # ESLint configuration
-├── client/                
-│
-├── server/                 # Backend
-│   ├── src/
-│   │   ├── controllers/    # Request handlers
-│   │   ├── routes/         # API routes
-│   │   ├── models/         # DB schemas (Mongo/Prisma/etc.)
-│   │   ├── services/       # Business logic
-│   │   ├── middleware/     # Auth, error handling
-│   │   ├── utils/          # Helper functions
-│   │   ├── config/         # DB & env config
-│   │   └── server.ts       # Entry point
-│   │
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── .env
-│
-├── package.json       
-└── README.md
+<p align="center">
+  <a href="YOUR_LIVE_DEMO_LINK">
+    <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge">
+  </a>
+  <a href="https://www.figma.com/design/nrhdFFXt8ivLtMVAB7MXaB/Noire?node-id=0-1&t=yXykIwxd1QVq1A2X-1">
+    <img src="https://img.shields.io/badge/Figma-Design-red?style=for-the-badge&logo=figma">
+  </a>
+</p>
 
 ---
 
-## ⚙️ Installation & Setup
+# 📖 About The Project
 
-1. Clone the repository:
+**Noire** is a modern fashion e-commerce experience created to showcase premium clothing collections through elegant design, refined typography, and seamless user interactions.
 
-   ```bash
-   git clone https://github.com/AdityaSarse/Noire.git
-   cd Noire
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start development server:
-
-   ```bash
-   npm run dev
-   ```
----
-
-## 🎯 Design Approach
-
-* Designed in **Figma** with a focus on:
-
-  * Clean typography
-  * Visual hierarchy
-  * Brand storytelling
-* Translated into code using reusable components and Tailwind utilities
-* Emphasis on consistency, spacing, and accessibility
-* FigmA LINK :[https://www.figma.com/design/nrhdFFXt8ivLtMVAB7MXaB/Noire?node-id=0-1&t=yXykIwxd1QVq1A2X-1]
+The project was first designed in **Figma** and later developed using **React**, **TypeScript**, and **Tailwind CSS**, following modern frontend best practices with reusable components and scalable architecture.
 
 ---
 
-## 🧠 State Management
+# 🎨 Figma Design Showcase
 
-Redux Toolkit is used for:
+## 🏠 Home
 
-* Managing global UI states (e.g., modals, themes)
-* Handling product/collection data
-* Keeping logic predictable and scalable
-
----
-
-## 🔮 Future Improvements
-
-* 🛍️ Add full e-commerce functionality (cart, checkout, payments)
-* 🌐 Multi-language support
-* 📊 Analytics integration
-* 🧑‍🎨 CMS integration for dynamic content updates
-* 🔐 Authentication & user accounts
+<p align="center">
+  <img src="./public/HOME.png" width="100%">
+</p>
 
 ---
 
-## 🤝 Contributing
+## 🧥 Collection
 
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
+<p align="center">
+  <img src="./public/Collection.png" width="100%">
+</p>
 
 ---
 
-## 💡 Inspiration
+## ✨ Signature Collection
 
-Built to reflect modern fashion aesthetics with a focus on simplicity, elegance, and usability.
+<p align="center">
+  <img src="./public/SIGNATURE.png" width="100%">
+</p>
+
+---
+
+## 🌙 Midnight Form
+
+<p align="center">
+  <img src="./public/Midnight Form.png" width="100%">
+</p>
+
+---
+
+## 🖤 Sculpted Silence
+
+<p align="center">
+  <img src="./public/Sculpted Silence.png" width="100%">
+</p>
+
+---
+
+## 📖 Lookbook
+
+<p align="center">
+  <img src="./public/LOOKBOOK.png" width="100%">
+</p>
+
+---
+
+## 🧵 Craftsmanship
+
+<p align="center">
+  <img src="./public/CRAFMANSHIP.png" width="100%">
+</p>
+
+---
+
+## 🏛️ Experience The Atelier
+
+<p align="center">
+  <img src="./public/Experience the Atelier.png" width="100%">
+</p>
 
 ---
 
 ## 📬 Contact
 
-For collaborations or inquiries:
-
-* Email: [adityasare361@gmail.com]
+<p align="center">
+  <img src="./public/contact.png" width="100%">
+</p>
 
 ---
 
-> Designed & developed with ❤️ using modern web technologies.
+# ✨ Features
+
+## 🛍️ Shopping Experience
+
+- Elegant Landing Page
+- Collection Showcase
+- Premium Brand Storytelling
+- Responsive Navigation
+- Mobile First Design
+- Interactive UI Components
+- Smooth Animations
+- Fast Performance
+
+## 🎨 Design
+
+- Modern Fashion Aesthetic
+- Pixel Perfect Layout
+- Fully Responsive
+- Clean Typography
+- Reusable Components
+- Accessibility Focused
+
+---
+
+# 🛠️ Tech Stack
+
+## 🎨 Frontend
+
+- React
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
+- shadcn/ui
+- React Router DOM
+
+## 🎯 Design
+
+- Figma
+
+## ⚙️ Development
+
+- Vite
+- ESLint
+
+---
+
+# 📂 Project Structure
+
+```text
+Noire
+│
+├── public/
+│   ├── HOME.png
+│   ├── Collection.png
+│   ├── SIGNATURE.png
+│   ├── LOOKBOOK.png
+│   ├── Sculpted Silence.png
+│   ├── Midnight Form.png
+│   ├── Experience the Atelier.png
+│   ├── CRAFTMANSHIP.png
+│   ├── contact.png
+│   └── p1.png
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── redux/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/AdityaSarse/Noire.git
+```
+
+```bash
+cd Noire
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 🎯 Design Philosophy
+
+The design focuses on creating a premium fashion experience through simplicity, elegant typography, whitespace, and immersive storytelling.
+
+The complete interface was first designed in **Figma**, then translated into reusable React components using Tailwind CSS while maintaining consistency, responsiveness, and accessibility.
+
+---
+
+# 🧠 State Management
+
+Redux Toolkit is used for:
+
+- Managing global UI state
+- Handling product collections
+- Creating scalable and predictable data flow
+- Improving component communication
+
+---
+
+# 🚀 Future Improvements
+
+- 🛒 Shopping Cart
+- ❤️ Wishlist
+- 🔍 Product Search
+- 💳 Secure Checkout
+- 👤 User Authentication
+- 🌐 Multi-language Support
+- 📊 Analytics Dashboard
+- 🧑‍🎨 CMS Integration
+
+---
+
+# 👨‍💻 Author
+
+## Aditya Sarse
+
+Full Stack Developer
+
+### 📬 Contact
+
+- 📧 Email: **adityasarse362@gmail.com**
+- 💼 LinkedIn: *(Add Your LinkedIn)*
+- 🌐 Portfolio: *(Add Portfolio Link)*
+
+---
+
+<p align="center">
+⭐ If you like this project, consider giving it a star!
+</p>
